@@ -1,0 +1,163 @@
+.container-fluid {
+    padding-left: 12% !important;
+    padding-right: 12% !important;
+    padding-bottom: 10%;
+}
+body {
+    font-family: "motserrat";
+}
+#title {
+    background-color: #ff4161;
+    color: white;
+}
+h1 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 3.4rem !important;
+    line-height: 1.5 !important;
+}
+h2 {
+    font-family: "montserrat", sans-serif;
+}
+.carousel-h2 {
+    padding: 3.3% 25%;
+    font-family: "montserrat", sans-serif;
+}
+.navbar-brand {
+    font-family: "Ubuntu", sans-serif;
+}
+
+/* navigation bar */
+.navbar-brand {
+    font-family: "ubuntu";
+    font-size: 2.5rem !important;
+    font-weight: bold;
+
+    margin-bottom: 30px !important;
+}
+.nav-link {
+    padding-left: 40px !important;
+    padding-right: 40px !important;
+
+    margin-bottom: 40px !important;
+}
+/* download-button */
+.btn {
+    margin: 30px 7px 0 0;
+    padding: 1% 3% !important;
+}
+
+.navbar {
+    padding-left: 0 !important;
+}
+.title-image {
+    width: 56%;
+    transform: rotate(30deg);
+    left: 50%;
+    position: absolute;
+    z-index: 0;
+}
+.niches {
+    background-color: #fff;
+}
+h3 {
+    font-size: 1.5rem;
+    font-family: "montserrat";
+}
+p {
+    color: #8f8f8f;
+}
+.feature-box {
+    text-align: center;
+    padding: 5% 100px !important;
+    background-color: white;
+}
+.icon {
+    margin-bottom: 2%;
+    color: #ef7468;
+}
+.icon:hover {
+    color: #ff4161;
+}
+/* TESTIMONIAL SECTION */
+#testimonials {
+    background-color: #ef7468;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+
+    color: white;
+}
+.dog {
+    width: 6%;
+    margin-top: 3%;
+    margin-bottom: 3.5%;
+    border-radius: 100%;
+    margin-right: 1%;
+}
+#press {
+    background-color: #ef7468;
+    text-align: center;
+}
+.listimg {
+    width: 17%;
+    padding: 2%;
+}
+#testimonial-carousel {
+    background-color: #ef7468;
+    text-align: center;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+}
+.testimonial-image {
+    width: 6%;
+    margin-top: 3%;
+    margin-bottom: 3.5%;
+    border-radius: 100%;
+    margin-right: 1%;
+}
+.testimonial-text {
+    padding: 3.294% 25%;
+    font-family: "montserrat", sans-serif;
+}
+/* pricing */
+
+#pricing {
+    padding: 100px;
+    text-align: center;
+}
+.pricing-col {
+    padding: 2% 3%;
+}
+/* media query */
+
+@media (max-width: 1028px) {
+    .title-image {
+        position: static;
+        transform: rotate(0);
+        padding-top: 10%;
+    }
+
+    #title {
+        text-align: center;
+    }
+}
+
+#cta {
+    background-color: #ff4c68;
+    padding: 7% 12%;
+    text-align: center;
+    color: white;
+}
+.ctatext {
+    font-family: "montserrat", sans-serif;
+    font-weight: bolder;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+#footer {
+    background-color: white;
+    text-align: center;
+    padding: 5% 0;
+}
+.ttop {
+    margin: 3% 8px;
+}
